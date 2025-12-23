@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.sidebar {
+  width: 220px;
+  border-right: 1px solid #ddd;
+}
+
+.nav-link {
+  cursor: pointer;
+}

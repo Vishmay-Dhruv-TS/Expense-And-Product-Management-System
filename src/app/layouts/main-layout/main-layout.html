@@ -1,3 +1,9 @@
-<div class="main-layout">
-  <router-outlet />
+<app-header></app-header>
+
+<div class="d-flex">
+  <app-sidebar></app-sidebar>
+
+  <main class="flex-grow-1 p-4">
+    <router-outlet />
+  </main>
 </div>
