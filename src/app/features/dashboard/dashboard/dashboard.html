@@ -1,2 +1,5 @@
 <h2>Dashboard</h2>
-<p>Main layout is working</p>
+
+<pre *ngIf="products$ | async as products">
+{{ products | json }}
+</pre>
